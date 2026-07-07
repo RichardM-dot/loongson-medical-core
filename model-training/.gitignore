@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+ai_env/
+
+# Model files (large binaries)
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+
+# Data files (raw datasets are large)
+data/raw/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Internal
+.reasonix/

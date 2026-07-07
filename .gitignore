@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+ai_env/
+
+# Large model binaries (use Git LFS or distribute separately)
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Raw & processed training data (large files, regeneratable)
+model-training/data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Internal
+.reasonix/

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=龙芯智慧医疗平台
+Comment=基于龙架构本地大语言模型的智能病历撰写平台
+Exec=bash /home/richard/医疗平台/run.sh
+Path=/home/richard/医疗平台
+Icon=applications-science
+Terminal=false
+Type=Application
+Categories=Science;MedicalSoftware;
+Encoding=UTF-8
